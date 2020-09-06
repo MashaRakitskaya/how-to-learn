@@ -1,3 +1,7 @@
+*{
+  outline: 1px solid red;
+
+  }
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -32,18 +36,24 @@
   top: 30px;
   width: 183px;
   height: 32px;
-}
+} /*Следите, чтобы на малых
+разрешениях логотип был поверх других блоков.  */
 
 .header__title {
   font-size: 102px;
   font-weight: bold;
+  margin: 0;
+  padding: 0;
   margin-left: 64px;
   width: 730px;
+  z-index: 3; 
   
 }
 
 .header__subtitle {
 position: absolute;
+margin: 0;
+padding: 0;
 left: 64px;
 bottom: 30px;
 font-size: 18px;
@@ -78,6 +88,64 @@ text-decoration: none;
   z-index: 1;
 }
 
+
+
+/* margin: 0;
+padding: 0;      перепроверить у всего текста*/
+
+
+.description {
+  position: relative;
+  display: flex;
+  /*align-items: center;*/
+  justify-content: center;
+  
+  
+}
+
+.two-columns {
+  position: absolute;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.two-columns__brief {
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+  margin: 0;
+  padding: 0;
+  align-self: flex-start;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+
+}
+.two-columns__paragraph { 
+line-height: 34px;
+font-size: 24px;
+font-weight: normal;
+margin: 0;
+padding: 0;
+margin-bottom: 30px;
+}
+
+.two-columns__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
+.two-columns__span-accent {
+font-weight: bold;
+}
+
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
@@ -85,3 +153,4 @@ text-decoration: none;
   margin-right: 0;
   margin-top: 80px;
 }
+
