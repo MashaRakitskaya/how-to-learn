@@ -6,8 +6,11 @@
     text-decoration: none;
     display: flex;
     align-items: center;
+    opacity: 1;
+    transition: opacity 0.2s ease;
   }
   
   .footer__column-link:hover {
     color:#2F4A77;
+    opacity: 0.8;
   }

@@ -8,8 +8,11 @@
     z-index: 2;
     text-decoration: none;
     color: #000000;
+    opacity: 1;
+    transition: opacity 0.2s ease;
   }
   
   .feinman__link:hover {
     color:#2F4A77;
+    opacity: 0.8;
   }
