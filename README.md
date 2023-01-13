@@ -6,7 +6,8 @@
 The project tells how to learn to learn: what are the main problems in learning, teaching techniques, videos from the TED educational platform and links to useful resources.
 
 ### Technologies:
-* HTML & CSS
+* HTML
+* CSS
 
 ### Functionality:
 * The file structure of the project according to the rules of Nested BEM
