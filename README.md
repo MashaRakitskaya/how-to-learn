@@ -1,4 +1,4 @@
-# Project name: How to learn
+# How to learn
 
 [Project on github-pages](https://masharakitskaya.github.io/how-to-learn/)
 
