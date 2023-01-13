@@ -2,10 +2,10 @@
 
 [Project on github-pages](https://masharakitskaya.github.io/how-to-learn/)
 
-### Project description:
+### Description:
 The project tells how to learn to learn: what are the main problems in learning, teaching techniques, videos from the TED educational platform and links to useful resources.
 
-### Project technologies:
+### Technologies:
 * HTML & CSS
 
 ### Functionality:
