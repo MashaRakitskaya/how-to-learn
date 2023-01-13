@@ -1,20 +1,20 @@
-# Проект: How to learn
+# Project: How to learn
 
-[Проект на github-pages](https://masharakitskaya.github.io/how-to-learn/)
+[Project on github-pages](https://masharakitskaya.github.io/how-to-learn/)
 
-### Описание проекта:
-Проект рассказывает как научиться учиться: какие главные проблеммы в обучении, техники обучения, видео с образовательной платформы TED и ссылки на полезные ресурсы.
+### Project description:
+The project tells how to learn to learn: what are the main problems in learning, teaching techniques, videos from the TED educational platform and links to useful resources.
 
-### Технологии проекта:
+### Project technologies:
 * HTML & CSS
 
-### Функциональность:
-* Файловая структура проекта по правилам Nested БЭМ
-* Видео дабавлены с помощью iframe
-* Aнимация 
-* Все ссылки реагируют при наведении 
-* Flex-вёрстка и позиционирование элементов 
+### Functionality:
+* The file structure of the project according to the rules of Nested BEM
+* Videos added using an iframe
+* Animation 
+* All links react on hover
+* Flex-layout and positioning of elements
 
-### Установка:
-* скачай код
-* открой index.html  в браузере
+### Installation:
+* download the code
+* open index.html in the browser
